@@ -1,11 +1,20 @@
-function firstChar(text) {
+function firstChar(str) {
   // your code here
-	for(let i=0; i<text.length; i++){
-		if(text[i]!=" "){
-			return text[i];
-		}
-	}
-	return "";
+ //    if(text.charAt(0)==""){
+	// 	return "";
+	// }
+	// return text.charAt(0)
+	  // Remove leading and trailing spaces
+  const trimmedStr = str.trim();
+
+  // Check if the trimmed string is empty
+  if (trimmedStr === '') {
+    return '';
+  }
+
+  // Return the first character of the trimmed string
+  return trimmedStr.charAt(0);
+
 }
 
 // Do not change the code below
