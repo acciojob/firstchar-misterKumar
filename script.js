@@ -5,7 +5,7 @@ function firstChar(text) {
 			return text[0];
 			
 		}
-	return " ";
+	return "";
 	
 }
 // Do not change the code below
